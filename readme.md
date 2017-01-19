@@ -1,6 +1,6 @@
-## Play Flappy Bird with TensorFlow 
+# Play Flappy Bird with TensorFlow 
 
-# Dependencies
+## Dependencies
 * Python
 * TensorFlow
 * pygame
