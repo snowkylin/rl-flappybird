@@ -1,20 +1,11 @@
 import tensorflow as tf
 import numpy as np
-import cv2
 import random
-import matplotlib.pyplot as plt
 from collections import deque
 import game.wrapped_flappy_bird as game
 from model import QFuncModel
 from config import *
-
-def rgb2gray(image):
-    image_gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
-    _, res = cv2.threshold(image_gray, 1, 255, cv2.THRESH_BINARY)
-    return res
-
-def resize(image):
-    return cv2.resize(image, (args.resize_width, args.resize_height))
+from utils import *
 
 model = QFuncModel(args)
 
