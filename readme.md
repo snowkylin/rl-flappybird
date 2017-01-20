@@ -15,5 +15,5 @@ Run `play.py` to play flappy bird by trained network.
 
 Run `train.py` to train the network on your computer.
 
-# Credit
+## Credit
 This work is highly based on [yenchenlin/DeepLearningFlappyBird](https://github.com/yenchenlin/DeepLearningFlappyBird)
